@@ -283,3 +283,27 @@ footer p {
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .about-image,
+    .home-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .project {
+        margin: 0 0 15px 0;
+    }
+}
